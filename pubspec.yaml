@@ -1,0 +1,32 @@
+name: flutter_volcengine_video
+description: "火山云视频点播的Flutter插件"
+version: 0.0.1
+homepage: https://github.com/LiWenHui96
+repository: https://github.com/LiWenHui96/flutter_volcengine_video
+issue_tracker: https://github.com/LiWenHui96/flutter_volcengine_video/issues
+topics:
+  - 火山云
+  - video
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_lints: ^3.0.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.volcengine.ttsdk.flutter
+        pluginClass: FlutterVolcengineVideoPlugin
+      ios:
+        pluginClass: FlutterVolcengineVideoPlugin

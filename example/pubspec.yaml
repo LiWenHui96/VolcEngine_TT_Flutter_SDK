@@ -1,0 +1,26 @@
+name: flutter_volcengine_video_example
+description: "Demonstrates how to use the flutter_volcengine_video plugin."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  flutter_volcengine_video:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^3.0.2
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
