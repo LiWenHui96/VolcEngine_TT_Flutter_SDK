@@ -6,6 +6,7 @@ repository: https://github.com/LiWenHui96/flutter_volcengine_video
 issue_tracker: https://github.com/LiWenHui96/flutter_volcengine_video/issues
 topics:
   - 火山云
+  - TTSDK
   - video
 
 environment:

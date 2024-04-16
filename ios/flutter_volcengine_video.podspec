@@ -17,6 +17,10 @@ Pod::Spec.new do |s|
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
 
+  # 添加 TTSDKFramework 动态库并指定 subspecs 为 Player-SR
+  s.dependency 'TTSDKFramework/Player-SR', '1.41.2.8-standard'
+  s.static_framework = true
+
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'

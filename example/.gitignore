@@ -10,9 +10,11 @@
 .svn/
 
 # IntelliJ related
+*.iml
 *.ipr
 *.iws
 .idea/
+gradle.properties
 
 # Visual Studio Code related
 .vscode/
@@ -43,3 +45,5 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+/assets/license/
