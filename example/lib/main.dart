@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
-  final FlutterVolcEngineTt _flutterVolcEngineTtPlugin = FlutterVolcEngineTt();
+  final FlutterVolcEngineTT _flutterVolcEngineTTPlugin = FlutterVolcEngineTT();
 
   @override
   void initState() {
@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      platformVersion = await _flutterVolcEngineTtPlugin.getPlatformVersion() ??
+      platformVersion = await _flutterVolcEngineTTPlugin.getPlatformVersion() ??
           'Unknown platform version';
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';

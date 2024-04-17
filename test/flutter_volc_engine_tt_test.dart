@@ -4,27 +4,27 @@ import 'package:flutter_volc_engine_tt/flutter_volc_engine_tt_method_channel.dar
 import 'package:flutter_volc_engine_tt/flutter_volc_engine_tt_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-class MockFlutterVolcEngineTtPlatform
+class MockFlutterVolcEngineTTPlatform
     with MockPlatformInterfaceMixin
-    implements FlutterVolcEngineTtPlatform {
+    implements FlutterVolcEngineTTPlatform {
   @override
   Future<String?> getPlatformVersion() => Future<String>.value('42');
 }
 
 void main() {
-  final FlutterVolcEngineTtPlatform initialPlatform =
-      FlutterVolcEngineTtPlatform.instance;
+  final FlutterVolcEngineTTPlatform initialPlatform =
+      FlutterVolcEngineTTPlatform.instance;
 
-  test('$MethodChannelFlutterVolcEngineTt is the default instance', () {
-    expect(initialPlatform, isInstanceOf<MethodChannelFlutterVolcEngineTt>());
+  test('$MethodChannelFlutterVolcEngineTT is the default instance', () {
+    expect(initialPlatform, isInstanceOf<MethodChannelFlutterVolcEngineTT>());
   });
 
   test('getPlatformVersion', () async {
-    final FlutterVolcEngineTt flutterVolcEngineTtPlugin = FlutterVolcEngineTt();
-    final MockFlutterVolcEngineTtPlatform fakePlatform =
-        MockFlutterVolcEngineTtPlatform();
-    FlutterVolcEngineTtPlatform.instance = fakePlatform;
+    final FlutterVolcEngineTT flutterVolcEngineTTPlugin = FlutterVolcEngineTT();
+    final MockFlutterVolcEngineTTPlatform fakePlatform =
+        MockFlutterVolcEngineTTPlatform();
+    FlutterVolcEngineTTPlatform.instance = fakePlatform;
 
-    expect(await flutterVolcEngineTtPlugin.getPlatformVersion(), '42');
+    expect(await flutterVolcEngineTTPlugin.getPlatformVersion(), '42');
   });
 }

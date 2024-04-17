@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class FlutterVolcEngineTtPlugin: NSObject, FlutterPlugin {
+public class FlutterVolcEngineTTPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "flutter_volc_engine_tt", binaryMessenger: registrar.messenger())
-    let instance = FlutterVolcEngineTtPlugin()
+    let instance = FlutterVolcEngineTTPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

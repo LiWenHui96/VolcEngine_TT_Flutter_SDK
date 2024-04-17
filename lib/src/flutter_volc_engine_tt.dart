@@ -1,7 +1,7 @@
 part of flutter_volc_engine_tt;
 
-class FlutterVolcEngineTt {
+class FlutterVolcEngineTT {
   Future<String?> getPlatformVersion() {
-    return FlutterVolcEngineTtPlatform.instance.getPlatformVersion();
+    return FlutterVolcEngineTTPlatform.instance.getPlatformVersion();
   }
 }

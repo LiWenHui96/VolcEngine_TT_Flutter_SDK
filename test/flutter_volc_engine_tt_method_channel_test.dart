@@ -5,8 +5,8 @@ import 'package:flutter_volc_engine_tt/flutter_volc_engine_tt_method_channel.dar
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  final MethodChannelFlutterVolcEngineTt platform =
-      MethodChannelFlutterVolcEngineTt();
+  final MethodChannelFlutterVolcEngineTT platform =
+      MethodChannelFlutterVolcEngineTT();
   const MethodChannel channel = MethodChannel('flutter_volc_engine_tt');
 
   setUp(() {

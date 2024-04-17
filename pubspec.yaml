@@ -28,6 +28,6 @@ flutter:
     platforms:
       android:
         package: com.volcengine.ttsdk.flutter
-        pluginClass: FlutterVolcEngineTtPlugin
+        pluginClass: FlutterVolcEngineTTPlugin
       ios:
-        pluginClass: FlutterVolcEngineTtPlugin
+        pluginClass: FlutterVolcEngineTTPlugin
