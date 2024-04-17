@@ -10,11 +10,4 @@ class MethodChannelFlutterVolcEngineTT extends FlutterVolcEngineTTPlatform {
   @visibleForTesting
   final MethodChannel methodChannel =
       const MethodChannel('flutter_volc_engine_tt');
-
-  @override
-  Future<String?> getPlatformVersion() async {
-    final String? version =
-        await methodChannel.invokeMethod<String>('getPlatformVersion');
-    return version;
-  }
 }
