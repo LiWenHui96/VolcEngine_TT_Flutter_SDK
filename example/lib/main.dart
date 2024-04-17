@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_volcengine_video/flutter_volcengine_video.dart';
+import 'package:flutter_volc_engine_tt/flutter_volc_engine_tt.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +17,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
-  final FlutterVolcengineVideo _flutterVolcengineVideoPlugin =
-      FlutterVolcengineVideo();
+  final FlutterVolcEngineTt _flutterVolcEngineTtPlugin = FlutterVolcEngineTt();
 
   @override
   void initState() {
@@ -32,9 +31,8 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      platformVersion =
-          await _flutterVolcengineVideoPlugin.getPlatformVersion() ??
-              'Unknown platform version';
+      platformVersion = await _flutterVolcEngineTtPlugin.getPlatformVersion() ??
+          'Unknown platform version';
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }

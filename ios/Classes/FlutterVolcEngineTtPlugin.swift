@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class FlutterVolcengineVideoPlugin: NSObject, FlutterPlugin {
+public class FlutterVolcEngineTtPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_volcengine_video", binaryMessenger: registrar.messenger())
-    let instance = FlutterVolcengineVideoPlugin()
+    let channel = FlutterMethodChannel(name: "flutter_volc_engine_tt", binaryMessenger: registrar.messenger())
+    let instance = FlutterVolcEngineTtPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

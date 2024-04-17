@@ -1,16 +1,15 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import 'flutter_volcengine_video_platform_interface.dart';
+import 'flutter_volc_engine_tt_platform_interface.dart';
 
-/// An implementation of [FlutterVolcengineVideoPlatform] that uses method
+/// An implementation of [FlutterVolcEngineTtPlatform] that uses method
 /// channels.
-class MethodChannelFlutterVolcengineVideo
-    extends FlutterVolcengineVideoPlatform {
+class MethodChannelFlutterVolcEngineTt extends FlutterVolcEngineTtPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
   final MethodChannel methodChannel =
-      const MethodChannel('flutter_volcengine_video');
+      const MethodChannel('flutter_volc_engine_tt');
 
   @override
   Future<String?> getPlatformVersion() async {

@@ -1,4 +1,4 @@
-# Flutter Volcengine Video
+# VolcEngine_TT_Flutter_SDK
 
 [![pub package](https://img.shields.io/pub/v/flutter_volcengine_video)](https://pub.dev/packages/flutter_volcengine_video)
 [![GitHub license](https://img.shields.io/github/license/LiWenHui96/flutter_volcengine_video?label=协议&style=flat-square)](https://github.com/LiWenHui96/flutter_volcengine_video/blob/master/LICENSE)

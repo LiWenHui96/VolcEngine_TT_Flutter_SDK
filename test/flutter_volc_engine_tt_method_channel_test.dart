@@ -1,13 +1,13 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_volcengine_video/flutter_volcengine_video_method_channel.dart';
+import 'package:flutter_volc_engine_tt/flutter_volc_engine_tt_method_channel.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  final MethodChannelFlutterVolcengineVideo platform =
-      MethodChannelFlutterVolcengineVideo();
-  const MethodChannel channel = MethodChannel('flutter_volcengine_video');
+  final MethodChannelFlutterVolcEngineTt platform =
+      MethodChannelFlutterVolcEngineTt();
+  const MethodChannel channel = MethodChannel('flutter_volc_engine_tt');
 
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger

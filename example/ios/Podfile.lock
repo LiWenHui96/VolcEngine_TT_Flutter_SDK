@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_volcengine_video (0.0.1):
+  - flutter_volc_engine_tt (0.0.1):
     - Flutter
     - TTSDKFramework/Player-SR (= 1.41.2.8-standard)
   - integration_test (0.0.1):
@@ -46,7 +46,7 @@ PODS:
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - flutter_volcengine_video (from `.symlinks/plugins/flutter_volcengine_video/ios`)
+  - flutter_volc_engine_tt (from `.symlinks/plugins/flutter_volc_engine_tt/ios`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
 
 SPEC REPOS:
@@ -57,14 +57,14 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  flutter_volcengine_video:
-    :path: ".symlinks/plugins/flutter_volcengine_video/ios"
+  flutter_volc_engine_tt:
+    :path: ".symlinks/plugins/flutter_volc_engine_tt/ios"
   integration_test:
     :path: ".symlinks/plugins/integration_test/ios"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_volcengine_video: 54e14ed4c89ea93881df7f60ee347d800fb4d92d
+  flutter_volc_engine_tt: faa6659b4c42a9172fcd1918978795e2e7f9e4bc
   integration_test: 13825b8a9334a850581300559b8839134b124670
   RangersAppLog: 7a5ad0ae94e99ae0652c4958b9ad0350c9c98760
   TTSDKFramework: 8bac639ef2c4b9090b5c4de40d962c2ef00d9621

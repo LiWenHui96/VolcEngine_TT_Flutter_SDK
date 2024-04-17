@@ -1,9 +1,9 @@
-name: flutter_volcengine_video
-description: "火山云视频点播的Flutter插件"
+name: flutter_volc_engine_tt
+description: "The Flutter plugin providers volcengine tt sdk native APIs to implement video player. 集成火山云视频点播原生SDK。"
 version: 0.0.1
 homepage: https://github.com/LiWenHui96
-repository: https://github.com/LiWenHui96/flutter_volcengine_video
-issue_tracker: https://github.com/LiWenHui96/flutter_volcengine_video/issues
+repository: https://github.com/LiWenHui96/VolcEngine_TT_Flutter_SDK
+issue_tracker: https://github.com/LiWenHui96/VolcEngine_TT_Flutter_SDK/issues
 topics:
   - 火山云
   - TTSDK
@@ -28,6 +28,6 @@ flutter:
     platforms:
       android:
         package: com.volcengine.ttsdk.flutter
-        pluginClass: FlutterVolcengineVideoPlugin
+        pluginClass: FlutterVolcEngineTtPlugin
       ios:
-        pluginClass: FlutterVolcengineVideoPlugin
+        pluginClass: FlutterVolcEngineTtPlugin

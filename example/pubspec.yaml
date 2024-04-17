@@ -1,5 +1,5 @@
-name: flutter_volcengine_video_example
-description: "Demonstrates how to use the flutter_volcengine_video plugin."
+name: flutter_volc_engine_tt_example
+description: "Demonstrates how to use the flutter_volc_engine_tt plugin."
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -12,7 +12,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter:
     sdk: flutter
-  flutter_volcengine_video:
+  flutter_volc_engine_tt:
     path: ../
 
 dev_dependencies:

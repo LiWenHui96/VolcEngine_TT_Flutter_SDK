@@ -1,6 +1,6 @@
-# flutter_volcengine_video_example
+# flutter_volc_engine_tt_example
 
-Demonstrates how to use the flutter_volcengine_video plugin.
+Demonstrates how to use the flutter_volc_engine_tt plugin.
 
 ## Getting Started
 

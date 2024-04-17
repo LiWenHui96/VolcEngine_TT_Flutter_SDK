@@ -1,13 +1,13 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint flutter_volcengine_video.podspec` to validate before publishing.
+# Run `pod lib lint flutter_volc_engine_tt.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_volcengine_video'
+  s.name             = 'flutter_volc_engine_tt'
   s.version          = '0.0.1'
-  s.summary          = '火山云视频点播的Flutter插件'
+  s.summary          = 'The Flutter plugin providers volcengine tt sdk native APIs to implement video player. 集成火山云视频点播原生SDK。'
   s.description      = <<-DESC
-火山云视频点播的Flutter插件
+The Flutter plugin providers volcengine tt sdk native APIs to implement video player. 集成火山云视频点播原生SDK。
                        DESC
   s.homepage         = 'https://github.com/LiWenHui96'
   s.license          = { :file => '../LICENSE' }
