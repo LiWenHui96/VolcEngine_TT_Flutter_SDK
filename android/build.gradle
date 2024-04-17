@@ -55,6 +55,8 @@ android {
     dependencies {
         // 火山云 视频点播 基础班SDK
         implementation "com.bytedanceapi:ttsdk-player_standard:1.41.2.10"
+        // 用于视频源获取
+        implementation 'com.squareup.okhttp3:okhttp:4.10.0'
 
         testImplementation 'org.jetbrains.kotlin:kotlin-test'
         testImplementation 'org.mockito:mockito-core:5.0.0'
