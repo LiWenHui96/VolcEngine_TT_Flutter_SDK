@@ -12,6 +12,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   flutter_volc_engine_tt:
     path: ../
 
@@ -24,3 +26,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/license/
