@@ -1,6 +1,5 @@
 import Flutter
 import UIKit
-import TTSDKFramework
 
 public class SwiftFlutterVolcEngineTTPlugin: NSObject, FlutterPlugin {
   var registrar: FlutterPluginRegistrar

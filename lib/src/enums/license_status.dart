@@ -36,7 +36,7 @@ enum LicenseStatus {
 
   /// {@template flutter.volc.engine.tt.platform.isInitialized}
   /// 鉴权通过
-  /// 指示视频是否已加载并准备播放。
+  /// 指示视频是否已加载并准备播放
   /// {@endtemplate}
   bool get isInitialized => this == LicenseStatus.OK;
 }
